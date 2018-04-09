@@ -24,11 +24,11 @@ end
 def find_the_cheese(food_list)
   cheese_types = ["cheddar", "gouda", "camembert"]
   food_list.find do |cheese|
-    if food_list.include?("cheddar")
+    if cheese.include?("cheddar")
       "cheddar"
-    elsif food_list.include?("gouda")
+    elsif cheese.include?("gouda")
       "gouda"
-    elsif food_list.include?("camembert")
+    elsif cheese.include?("camembert")
       "camembert"
     end
   end
