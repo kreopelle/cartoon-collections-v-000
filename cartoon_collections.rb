@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(dwarves)
   numbered_dwarves = []
   dwarves.each_with_index do |dwarf, index|
