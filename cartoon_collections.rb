@@ -33,4 +33,3 @@ def find_the_cheese(food_list)
     end
   end
 end
-
