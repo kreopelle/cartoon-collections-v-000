@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
-    dwarves.collect do |dwarf|
-      puts "#{dwarf}"
-    end
+  dwarves.collect do |dwarf|
+    puts "#{dwarf}"
+  end
 end
 
 def summon_captain_planet# code an argument here
